@@ -17,16 +17,22 @@ function startTest(selectedMode) {
   renderizarPregunta();
 }
 
-function renderizarPregunta(tipo) {
+function renderizarPregunta() {
   if (indicePregunta >= preguntas.length) {
     document.getElementById("app").innerHTML = `<h2 class='text-xl font-bold'>Test finalizado</h2>
-    ${ modo === "multiple" ? `<p class='mt-2'>Puntaje: ${puntaje}/${preguntas.length}</p><p class='mt-2'>${(10*puntaje/preguntas.length).toFixed(2)}</p><br/>` : '' }
-    <button onclick="recargarApp()" class='w-full p-2 my-1 bg-amber-400 text-white rounded'>Volver a empezar</button>`;
+    <p class='mt-2'>Puntaje: ${puntaje}/${preguntas.length}</p>`;
     return;
   }
 
   let preguntaActual = preguntas[indicePregunta];
   let contenido = `<h2 class='text-lg font-bold mb-4'>${preguntaActual.pregunta}</h2>`;
+
+  // Verifica si hay código en la pregunta y lo agrega
+  if (preguntaActual.codigo) {
+    contenido += `<div class="codigo bg-gray-800 text-white p-4 rounded-md overflow-x-auto">
+      <pre><code>${preguntaActual.codigo.texto}</code></pre>
+    </div>`;
+  }
 
   if (modo === "multiple") {
     preguntaActual.respuestas.forEach((resp, i) => {
@@ -38,6 +44,7 @@ function renderizarPregunta(tipo) {
 
   document.getElementById("app").innerHTML = contenido;
 }
+
 
 function seleccionarRespuesta(correcto) {
   if (correcto) puntaje++;
