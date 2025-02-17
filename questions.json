@@ -1,370 +1,850 @@
 {
   "tema": [
     {
-      "pregunta": "¿Qué representa el Modelo en MVC?",
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para indicar que una clase es la clase principal que arranca la aplicación?",
       "respuestas": [
-        {"texto": "La interfaz de usuario", "esCorrecto": false},
-        {"texto": "La lógica de negocio y gestión de datos", "esCorrecto": true},
-        {"texto": "La interacción con el usuario", "esCorrecto": false},
-        {"texto": "La navegación entre páginas", "esCorrecto": false}
+        {"texto": "@SpringApplication", "esCorrecto": false},
+        {"texto": "@SpringBootApplication", "esCorrecto": true},
+        {"texto": "@MainApplication", "esCorrecto": false},
+        {"texto": "@Application", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Cuál es la función del Controlador en MVC?",
+      "pregunta": "¿Qué dependencia de Spring Boot se utiliza para facilitar el desarrollo rápido de aplicaciones?",
       "respuestas": [
-        {"texto": "Gestionar la interfaz gráfica", "esCorrecto": false},
-        {"texto": "Encargarse de la base de datos", "esCorrecto": false},
-        {"texto": "Recibir y gestionar las peticiones del usuario", "esCorrecto": true},
-        {"texto": "Estilizar la presentación de la aplicación", "esCorrecto": false}
+        {"texto": "Spring Web", "esCorrecto": false},
+        {"texto": "Spring DevTools", "esCorrecto": true},
+        {"texto": "Spring Data JPA", "esCorrecto": false},
+        {"texto": "Lombok", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué se encarga de definir la presentación en MVC?",
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para mapear una solicitud HTTP GET?",
       "respuestas": [
-        {"texto": "El Modelo", "esCorrecto": false},
-        {"texto": "El Controlador", "esCorrecto": false},
-        {"texto": "La Vista", "esCorrecto": true},
-        {"texto": "El Servidor", "esCorrecto": false}
+        {"texto": "@PostMapping", "esCorrecto": false},
+        {"texto": "@GetMapping", "esCorrecto": true},
+        {"texto": "@RequestMapping", "esCorrecto": false},
+        {"texto": "@PutMapping", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué es Nginx?",
+      "pregunta": "¿Qué archivo en un proyecto Maven contiene las dependencias del proyecto?",
       "respuestas": [
-        {"texto": "Un servidor web y proxy inverso", "esCorrecto": true},
-        {"texto": "Un framework de desarrollo", "esCorrecto": false},
-        {"texto": "Un sistema operativo", "esCorrecto": false},
-        {"texto": "Un gestor de bases de datos", "esCorrecto": false}
+        {"texto": "pom.xml", "esCorrecto": true},
+        {"texto": "build.gradle", "esCorrecto": false},
+        {"texto": "application.properties", "esCorrecto": false},
+        {"texto": "main.java", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Para qué se usa SSH?",
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para indicar que una clase es un controlador?",
       "respuestas": [
-        {"texto": "Para acceder de forma segura a otro equipo de forma remota", "esCorrecto": true},
-        {"texto": "Para transferir archivos mediante HTTP", "esCorrecto": false},
-        {"texto": "Para cifrar contraseñas", "esCorrecto": false},
-        {"texto": "Para compilar código en servidores", "esCorrecto": false}
+        {"texto": "@Service", "esCorrecto": false},
+        {"texto": "@Repository", "esCorrecto": false},
+        {"texto": "@Controller", "esCorrecto": true},
+        {"texto": "@Component", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué protocolo permite la transferencia segura de archivos?",
+      "pregunta": "¿Qué anotación se utiliza para inyectar dependencias en Spring Boot?",
       "respuestas": [
-        {"texto": "FTP", "esCorrecto": false},
-        {"texto": "SFTP", "esCorrecto": true},
+        {"texto": "@Inject", "esCorrecto": false},
+        {"texto": "@Autowired", "esCorrecto": true},
+        {"texto": "@Resource", "esCorrecto": false},
+        {"texto": "@Dependency", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué archivo se utiliza en Spring Boot para configurar propiedades como el puerto del servidor?",
+      "respuestas": [
+        {"texto": "pom.xml", "esCorrecto": false},
+        {"texto": "application.properties", "esCorrecto": true},
+        {"texto": "build.gradle", "esCorrecto": false},
+        {"texto": "main.java", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para mapear una solicitud HTTP POST?",
+      "respuestas": [
+        {"texto": "@GetMapping", "esCorrecto": false},
+        {"texto": "@PostMapping", "esCorrecto": true},
+        {"texto": "@RequestMapping", "esCorrecto": false},
+        {"texto": "@PutMapping", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para indicar que una clase es un repositorio?",
+      "respuestas": [
+        {"texto": "@Service", "esCorrecto": false},
+        {"texto": "@Repository", "esCorrecto": true},
+        {"texto": "@Controller", "esCorrecto": false},
+        {"texto": "@Component", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para mapear una solicitud HTTP PUT?",
+      "respuestas": [
+        {"texto": "@GetMapping", "esCorrecto": false},
+        {"texto": "@PostMapping", "esCorrecto": false},
+        {"texto": "@PutMapping", "esCorrecto": true},
+        {"texto": "@RequestMapping", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué versión de HTTP es la más utilizada actualmente?",
+      "respuestas": [
+        {"texto": "HTTP/1.0", "esCorrecto": false},
+        {"texto": "HTTP/1.1", "esCorrecto": false},
+        {"texto": "HTTP/2", "esCorrecto": true},
+        {"texto": "HTTP/3", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué método HTTP se utiliza para solicitar un recurso del servidor?",
+      "respuestas": [
+        {"texto": "POST", "esCorrecto": false},
+        {"texto": "GET", "esCorrecto": true},
+        {"texto": "PUT", "esCorrecto": false},
+        {"texto": "DELETE", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué método HTTP se utiliza para enviar datos al servidor, como en un formulario?",
+      "respuestas": [
+        {"texto": "GET", "esCorrecto": false},
+        {"texto": "POST", "esCorrecto": true},
+        {"texto": "PUT", "esCorrecto": false},
+        {"texto": "DELETE", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué método HTTP se utiliza para actualizar un recurso en el servidor?",
+      "respuestas": [
+        {"texto": "GET", "esCorrecto": false},
+        {"texto": "POST", "esCorrecto": false},
+        {"texto": "PUT", "esCorrecto": true},
+        {"texto": "DELETE", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué método HTTP se utiliza para eliminar un recurso en el servidor?",
+      "respuestas": [
+        {"texto": "GET", "esCorrecto": false},
+        {"texto": "POST", "esCorrecto": false},
+        {"texto": "PUT", "esCorrecto": false},
+        {"texto": "DELETE", "esCorrecto": true}
+      ]
+    },
+    {
+      "pregunta": "¿Qué código de estado HTTP indica que una solicitud fue exitosa?",
+      "respuestas": [
+        {"texto": "200", "esCorrecto": true},
+        {"texto": "404", "esCorrecto": false},
+        {"texto": "500", "esCorrecto": false},
+        {"texto": "302", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué código de estado HTTP indica que un recurso no fue encontrado?",
+      "respuestas": [
+        {"texto": "200", "esCorrecto": false},
+        {"texto": "404", "esCorrecto": true},
+        {"texto": "500", "esCorrecto": false},
+        {"texto": "302", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué código de estado HTTP indica un error interno del servidor?",
+      "respuestas": [
+        {"texto": "200", "esCorrecto": false},
+        {"texto": "404", "esCorrecto": false},
+        {"texto": "500", "esCorrecto": true},
+        {"texto": "302", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué código de estado HTTP indica una redirección?",
+      "respuestas": [
+        {"texto": "200", "esCorrecto": false},
+        {"texto": "404", "esCorrecto": false},
+        {"texto": "500", "esCorrecto": false},
+        {"texto": "302", "esCorrecto": true}
+      ]
+    },
+    {
+      "pregunta": "¿Qué cabecera HTTP se utiliza para indicar el tipo de contenido que el cliente puede aceptar?",
+      "respuestas": [
+        {"texto": "Accept", "esCorrecto": true},
+        {"texto": "Content-Type", "esCorrecto": false},
+        {"texto": "Host", "esCorrecto": false},
+        {"texto": "User-Agent", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de registro DNS traduce un nombre de dominio a una dirección IP?",
+      "respuestas": [
+        {"texto": "A", "esCorrecto": true},
+        {"texto": "PTR", "esCorrecto": false},
+        {"texto": "MX", "esCorrecto": false},
+        {"texto": "CNAME", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de registro DNS traduce una dirección IP a un nombre de dominio?",
+      "respuestas": [
+        {"texto": "A", "esCorrecto": false},
+        {"texto": "PTR", "esCorrecto": true},
+        {"texto": "MX", "esCorrecto": false},
+        {"texto": "CNAME", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de registro DNS se utiliza para asociar un nombre de dominio a un servidor de correo?",
+      "respuestas": [
+        {"texto": "A", "esCorrecto": false},
+        {"texto": "PTR", "esCorrecto": false},
+        {"texto": "MX", "esCorrecto": true},
+        {"texto": "CNAME", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de registro DNS se utiliza para crear un alias para un nombre de dominio?",
+      "respuestas": [
+        {"texto": "A", "esCorrecto": false},
+        {"texto": "PTR", "esCorrecto": false},
+        {"texto": "MX", "esCorrecto": false},
+        {"texto": "CNAME", "esCorrecto": true}
+      ]
+    },
+    {
+      "pregunta": "¿Qué comando se utiliza en Linux para realizar una consulta DNS?",
+      "respuestas": [
+        {"texto": "nslookup", "esCorrecto": false},
+        {"texto": "dig", "esCorrecto": true},
+        {"texto": "ping", "esCorrecto": false},
+        {"texto": "traceroute", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué comando se utiliza en Windows para realizar una consulta DNS?",
+      "respuestas": [
+        {"texto": "nslookup", "esCorrecto": true},
+        {"texto": "dig", "esCorrecto": false},
+        {"texto": "ping", "esCorrecto": false},
+        {"texto": "traceroute", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servidor DNS almacena las resoluciones de otros servidores para evitar consultas repetidas?",
+      "respuestas": [
+        {"texto": "Master", "esCorrecto": false},
+        {"texto": "Slave", "esCorrecto": false},
+        {"texto": "Caché", "esCorrecto": true},
+        {"texto": "Primario", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servidor DNS tiene autoridad sobre un dominio y puede crear registros?",
+      "respuestas": [
+        {"texto": "Master", "esCorrecto": true},
+        {"texto": "Slave", "esCorrecto": false},
+        {"texto": "Caché", "esCorrecto": false},
+        {"texto": "Secundario", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servidor DNS tiene la misma información que el servidor maestro y sirve como respaldo?",
+      "respuestas": [
+        {"texto": "Master", "esCorrecto": false},
+        {"texto": "Slave", "esCorrecto": true},
+        {"texto": "Caché", "esCorrecto": false},
+        {"texto": "Primario", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de registro DNS define los servidores principales de un dominio?",
+      "respuestas": [
+        {"texto": "NS", "esCorrecto": true},
+        {"texto": "SOA", "esCorrecto": false},
+        {"texto": "TXT", "esCorrecto": false},
+        {"texto": "SPF", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué protocolo se utiliza para establecer una conexión segura entre un cliente y un servidor?",
+      "respuestas": [
         {"texto": "HTTP", "esCorrecto": false},
-        {"texto": "SMTP", "esCorrecto": false}
+        {"texto": "HTTPS", "esCorrecto": true},
+        {"texto": "FTP", "esCorrecto": false},
+        {"texto": "DNS", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué es Spring Boot?",
+      "pregunta": "¿Qué versión de TLS es la más reciente?",
       "respuestas": [
-        {"texto": "Un framework para crear aplicaciones en Java", "esCorrecto": true},
-        {"texto": "Un sistema operativo", "esCorrecto": false},
-        {"texto": "Un lenguaje de programación", "esCorrecto": false},
-        {"texto": "Un motor de bases de datos", "esCorrecto": false}
+        {"texto": "TLS 1.0", "esCorrecto": false},
+        {"texto": "TLS 1.1", "esCorrecto": false},
+        {"texto": "TLS 1.2", "esCorrecto": false},
+        {"texto": "TLS 1.3", "esCorrecto": true}
       ]
     },
     {
-      "pregunta": "¿Qué función tiene Spring Security?",
+      "pregunta": "¿Qué protocolo se utiliza para cifrar la comunicación entre un cliente y un servidor en HTTPS?",
       "respuestas": [
-        {"texto": "Proteger aplicaciones Spring mediante autenticación y autorización", "esCorrecto": true},
-        {"texto": "Gestionar bases de datos", "esCorrecto": false},
-        {"texto": "Compilar aplicaciones Spring", "esCorrecto": false},
-        {"texto": "Optimizar el rendimiento de Spring Boot", "esCorrecto": false}
+        {"texto": "SSL", "esCorrecto": false},
+        {"texto": "TLS", "esCorrecto": true},
+        {"texto": "SSH", "esCorrecto": false},
+        {"texto": "FTP", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Para qué se usa Thymeleaf en Spring Boot?",
+      "pregunta": "¿Qué puerto se utiliza por defecto para HTTPS?",
       "respuestas": [
-        {"texto": "Para renderizar vistas HTML dinámicamente", "esCorrecto": true},
-        {"texto": "Para gestionar la base de datos", "esCorrecto": false},
-        {"texto": "Para realizar autenticación de usuarios", "esCorrecto": false},
-        {"texto": "Para crear controladores REST", "esCorrecto": false}
+        {"texto": "80", "esCorrecto": false},
+        {"texto": "443", "esCorrecto": true},
+        {"texto": "8080", "esCorrecto": false},
+        {"texto": "22", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Cuál es la principal función de Nginx?",
+      "pregunta": "¿Qué protocolo se utiliza para la autenticación y cifrado en conexiones SSH?",
       "respuestas": [
-        {"texto": "Servidor web y proxy inverso", "esCorrecto": true},
-        {"texto": "Gestor de bases de datos", "esCorrecto": false},
-        {"texto": "Framework de desarrollo", "esCorrecto": false},
-        {"texto": "Sistema operativo", "esCorrecto": false}
-      ]
-    },
-    {
-      "pregunta": "¿Qué protocolo se utiliza para acceso remoto seguro?",
-      "respuestas": [
+        {"texto": "SSL", "esCorrecto": false},
+        {"texto": "TLS", "esCorrecto": false},
         {"texto": "SSH", "esCorrecto": true},
-        {"texto": "HTTP", "esCorrecto": false},
-        {"texto": "FTP", "esCorrecto": false},
-        {"texto": "Telnet", "esCorrecto": false}
+        {"texto": "FTP", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Cuál de los siguientes protocolos permite la transferencia segura de archivos?",
+      "pregunta": "¿Qué puerto se utiliza por defecto para SSH?",
       "respuestas": [
+        {"texto": "80", "esCorrecto": false},
+        {"texto": "443", "esCorrecto": false},
+        {"texto": "22", "esCorrecto": true},
+        {"texto": "8080", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de cifrado utiliza una clave pública y una clave privada?",
+      "respuestas": [
+        {"texto": "Simétrico", "esCorrecto": false},
+        {"texto": "Asimétrico", "esCorrecto": true},
+        {"texto": "Híbrido", "esCorrecto": false},
+        {"texto": "Ninguno de los anteriores", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de cifrado utiliza la misma clave para cifrar y descifrar?",
+      "respuestas": [
+        {"texto": "Simétrico", "esCorrecto": true},
+        {"texto": "Asimétrico", "esCorrecto": false},
+        {"texto": "Híbrido", "esCorrecto": false},
+        {"texto": "Ninguno de los anteriores", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué protocolo se utiliza para la transferencia segura de archivos?",
+      "respuestas": [
+        {"texto": "FTP", "esCorrecto": false},
         {"texto": "SFTP", "esCorrecto": true},
-        {"texto": "FTP", "esCorrecto": false},
         {"texto": "HTTP", "esCorrecto": false},
-        {"texto": "SMTP", "esCorrecto": false}
+        {"texto": "DNS", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué es Spring Boot?",
+      "pregunta": "¿Qué protocolo se utiliza para la transferencia de archivos sin cifrado?",
       "respuestas": [
-        {"texto": "Un framework para crear aplicaciones en Java", "esCorrecto": true},
-        {"texto": "Un sistema operativo", "esCorrecto": false},
-        {"texto": "Un lenguaje de programación", "esCorrecto": false},
-        {"texto": "Un motor de bases de datos", "esCorrecto": false}
+        {"texto": "FTP", "esCorrecto": true},
+        {"texto": "SFTP", "esCorrecto": false},
+        {"texto": "HTTP", "esCorrecto": false},
+        {"texto": "DNS", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué función tiene Spring Security?",
+      "pregunta": "¿Qué servidor web es más ligero y está orientado a mejorar el rendimiento?",
       "respuestas": [
-        {"texto": "Proteger aplicaciones Spring mediante autenticación y autorización", "esCorrecto": true},
-        {"texto": "Gestionar bases de datos", "esCorrecto": false},
-        {"texto": "Compilar aplicaciones Spring", "esCorrecto": false},
-        {"texto": "Optimizar el rendimiento de Spring Boot", "esCorrecto": false}
+        {"texto": "Apache", "esCorrecto": false},
+        {"texto": "Nginx", "esCorrecto": true},
+        {"texto": "IIS", "esCorrecto": false},
+        {"texto": "Tomcat", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Para qué se usa Thymeleaf en Spring Boot?",
+      "pregunta": "¿Qué servidor web es más comúnmente utilizado en entornos Windows?",
       "respuestas": [
-        {"texto": "Para renderizar vistas HTML dinámicamente", "esCorrecto": true},
-        {"texto": "Para gestionar la base de datos", "esCorrecto": false},
-        {"texto": "Para realizar autenticación de usuarios", "esCorrecto": false},
-        {"texto": "Para crear controladores REST", "esCorrecto": false}
+        {"texto": "Apache", "esCorrecto": false},
+        {"texto": "Nginx", "esCorrecto": false},
+        {"texto": "IIS", "esCorrecto": true},
+        {"texto": "Tomcat", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué es un controlador en Spring Boot?",
+      "pregunta": "¿Qué servidor web es más comúnmente utilizado para aplicaciones Java?",
       "respuestas": [
-        {"texto": "Un componente que gestiona peticiones HTTP", "esCorrecto": true},
-        {"texto": "Un motor de bases de datos", "esCorrecto": false},
-        {"texto": "Un archivo de configuración", "esCorrecto": false},
-        {"texto": "Un cliente de FTP", "esCorrecto": false}
+        {"texto": "Apache", "esCorrecto": false},
+        {"texto": "Nginx", "esCorrecto": false},
+        {"texto": "IIS", "esCorrecto": false},
+        {"texto": "Tomcat", "esCorrecto": true}
       ]
     },
     {
-      "pregunta": "¿Cuál es la función de un DTO en Spring Boot?",
+      "pregunta": "¿Qué servidor web es más comúnmente utilizado para aplicaciones PHP?",
       "respuestas": [
-        {"texto": "Transferir datos entre capas de la aplicación", "esCorrecto": true},
-        {"texto": "Gestionar sesiones de usuario", "esCorrecto": false},
-        {"texto": "Estilizar la aplicación", "esCorrecto": false},
-        {"texto": "Compilar la aplicación", "esCorrecto": false}
+        {"texto": "Apache", "esCorrecto": true},
+        {"texto": "Nginx", "esCorrecto": false},
+        {"texto": "IIS", "esCorrecto": false},
+        {"texto": "Tomcat", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Qué es una interfaz en Java?",
+      "pregunta": "¿Qué servicio de despliegue de páginas estáticas es proporcionado por GitHub?",
       "respuestas": [
-        {"texto": "Un contrato que define métodos sin implementar", "esCorrecto": true},
-        {"texto": "Una clase que contiene solo variables", "esCorrecto": false},
-        {"texto": "Una función dentro de una clase", "esCorrecto": false},
-        {"texto": "Un tipo especial de base de datos", "esCorrecto": false}
+        {"texto": "Netlify", "esCorrecto": false},
+        {"texto": "GitHub Pages", "esCorrecto": true},
+        {"texto": "Firebase", "esCorrecto": false},
+        {"texto": "Vercel", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Cuál es la función de una implementación de servicio en Spring Boot?",
+      "pregunta": "¿Qué servicio de despliegue de páginas estáticas es proporcionado por GitLab?",
       "respuestas": [
-        {"texto": "Definir la lógica de negocio y operaciones sobre datos", "esCorrecto": true},
-        {"texto": "Gestionar la presentación de la aplicación", "esCorrecto": false},
-        {"texto": "Almacenar datos en la base de datos", "esCorrecto": false},
-        {"texto": "Realizar autenticación de usuarios", "esCorrecto": false}
+        {"texto": "Netlify", "esCorrecto": false},
+        {"texto": "GitHub Pages", "esCorrecto": false},
+        {"texto": "GitLab Pages", "esCorrecto": true},
+        {"texto": "Vercel", "esCorrecto": false}
       ]
     },
     {
-      "pregunta": "¿Cómo configurar un servidor Nginx para actuar como proxy inverso?",
+      "pregunta": "¿Qué servicio de despliegue de páginas estáticas es proporcionado por Google?",
       "respuestas": [
-        {"texto": "Mediante la directiva 'proxy_pass' en el bloque de configuración", "esCorrecto": true},
-        {"texto": "Instalando un módulo adicional de Apache", "esCorrecto": false},
-        {"texto": "Cambiando la configuración del firewall", "esCorrecto": false},
-        {"texto": "Editando el archivo .htaccess", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "server {\n  location / {\n    proxy_pass http://localhost:8080;\n  }\n}",
-        "clase": "codigo"
-      }
+        {"texto": "Netlify", "esCorrecto": false},
+        {"texto": "GitHub Pages", "esCorrecto": false},
+        {"texto": "Firebase", "esCorrecto": true},
+        {"texto": "Vercel", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo establecer una conexión SSH a un servidor remoto?",
+      "pregunta": "¿Qué servicio de despliegue de páginas estáticas es proporcionado por Vercel?",
       "respuestas": [
-        {"texto": "Usando el comando 'ssh usuario@servidor'", "esCorrecto": true},
-        {"texto": "Ejecutando 'connect usuario servidor'", "esCorrecto": false},
-        {"texto": "Configurando una conexión VPN", "esCorrecto": false},
-        {"texto": "Usando un navegador web", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "ssh usuario@192.168.1.1",
-        "clase": "codigo"
-      }
+        {"texto": "Netlify", "esCorrecto": false},
+        {"texto": "GitHub Pages", "esCorrecto": false},
+        {"texto": "Firebase", "esCorrecto": false},
+        {"texto": "Vercel", "esCorrecto": true}
+      ]
     },
     {
-      "pregunta": "¿Cómo configurar autenticación básica en Spring Security?",
+      "pregunta": "¿Qué servicio de despliegue de páginas estáticas es proporcionado por Netlify?",
       "respuestas": [
-        {"texto": "Mediante una clase @Configuration que extiende WebSecurityConfigurerAdapter", "esCorrecto": true},
-        {"texto": "Modificando el archivo application.properties", "esCorrecto": false},
-        {"texto": "Añadiendo anotaciones en los controladores", "esCorrecto": false},
-        {"texto": "Creando un filtro en el frontend", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "@Configuration\n@EnableWebSecurity\npublic class SecurityConfig extends WebSecurityConfigurerAdapter {\n  @Override\n  protected void configure(HttpSecurity http) throws Exception {\n    http.authorizeRequests().anyRequest().authenticated().and().httpBasic();\n  }\n}",
-        "clase": "codigo"
-      }
+        {"texto": "Netlify", "esCorrecto": true},
+        {"texto": "GitHub Pages", "esCorrecto": false},
+        {"texto": "Firebase", "esCorrecto": false},
+        {"texto": "Vercel", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo definir un controlador en Spring Boot?",
+      "pregunta": "¿Qué servicio de despliegue de páginas estáticas es proporcionado por Surge?",
       "respuestas": [
-        {"texto": "Usando la anotación @RestController", "esCorrecto": true},
-        {"texto": "Implementando la interfaz ControllerBase", "esCorrecto": false},
-        {"texto": "Declarando métodos estáticos en una clase", "esCorrecto": false},
-        {"texto": "Editando el archivo application.yaml", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "@RestController\n@RequestMapping(\"/api\")\npublic class MyController {\n  @GetMapping(\"/hello\")\n  public String sayHello() {\n    return \"Hola Mundo\";\n  }\n}",
-        "clase": "codigo"
-      }
+        {"texto": "Netlify", "esCorrecto": false},
+        {"texto": "GitHub Pages", "esCorrecto": false},
+        {"texto": "Surge", "esCorrecto": true},
+        {"texto": "Vercel", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo se define una entidad en Spring Boot usando JPA?",
+      "pregunta": "¿Qué significa VPS?",
       "respuestas": [
-        {"texto": "Mediante la anotación @Entity sobre una clase", "esCorrecto": true},
-        {"texto": "Declarando un JSON en application.yaml", "esCorrecto": false},
-        {"texto": "Definiendo un DTO", "esCorrecto": false},
-        {"texto": "Creando una tabla en la base de datos manualmente", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "@Entity\npublic class Usuario {\n  @Id\n  @GeneratedValue(strategy = GenerationType.IDENTITY)\n  private Long id;\n  private String nombre;\n}",
-        "clase": "codigo"
-      }
+        {"texto": "Virtual Private Server", "esCorrecto": true},
+        {"texto": "Virtual Public Server", "esCorrecto": false},
+        {"texto": "Virtual Personal Server", "esCorrecto": false},
+        {"texto": "Virtual Proxy Server", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo habilitar HTTPS en Nginx?",
+      "pregunta": "¿Qué protocolo se utiliza para conectarse de forma segura a un VPS?",
       "respuestas": [
-        {"texto": "Configurando un certificado SSL y ajustando la configuración", "esCorrecto": true},
-        {"texto": "Instalando un plugin adicional", "esCorrecto": false},
-        {"texto": "Editando el archivo .htaccess", "esCorrecto": false},
-        {"texto": "Cambiando la configuración del firewall", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "server {\n  listen 443 ssl;\n  server_name example.com;\n  ssl_certificate /etc/nginx/ssl/cert.pem;\n  ssl_certificate_key /etc/nginx/ssl/key.pem;\n}",
-        "clase": "codigo"
-      }
+        {"texto": "HTTP", "esCorrecto": false},
+        {"texto": "HTTPS", "esCorrecto": false},
+        {"texto": "SSH", "esCorrecto": true},
+        {"texto": "FTP", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo crear un túnel SSH con reenvío de puertos?",
+      "pregunta": "¿Qué puerto se utiliza por defecto para SSH?",
       "respuestas": [
-        {"texto": "Usando el parámetro '-L' en SSH", "esCorrecto": true},
-        {"texto": "Modificando el archivo sshd_config", "esCorrecto": false},
-        {"texto": "Activando VPN", "esCorrecto": false},
-        {"texto": "Cambiando la IP del servidor", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "ssh -L 8080:localhost:80 usuario@servidor.com",
-        "clase": "codigo"
-      }
+        {"texto": "80", "esCorrecto": false},
+        {"texto": "443", "esCorrecto": false},
+        {"texto": "22", "esCorrecto": true},
+        {"texto": "8080", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo restringir acceso a rutas específicas en Spring Security?",
+      "pregunta": "¿Qué comando se utiliza para generar un par de claves SSH?",
       "respuestas": [
-        {"texto": "Definiendo restricciones en la configuración", "esCorrecto": true},
-        {"texto": "Editando el archivo application.properties", "esCorrecto": false},
-        {"texto": "Desactivando CORS", "esCorrecto": false},
-        {"texto": "Modificando la anotación @RequestMapping", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "@Configuration\n@EnableWebSecurity\npublic class SecurityConfig extends WebSecurityConfigurerAdapter {\n  @Override\n  protected void configure(HttpSecurity http) throws Exception {\n    http.authorizeRequests().antMatchers(\"/admin/**\").hasRole(\"ADMIN\").anyRequest().authenticated();\n  }\n}",
-        "clase": "codigo"
-      }
+        {"texto": "ssh-keygen", "esCorrecto": true},
+        {"texto": "ssh-copy-id", "esCorrecto": false},
+        {"texto": "ssh-add", "esCorrecto": false},
+        {"texto": "ssh-agent", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo renderizar datos en una vista Thymeleaf en Spring Boot?",
+      "pregunta": "¿Qué comando se utiliza para copiar una clave pública SSH a un servidor remoto?",
       "respuestas": [
-        {"texto": "Enviando atributos desde el controlador", "esCorrecto": true},
-        {"texto": "Usando un script en JavaScript", "esCorrecto": false},
-        {"texto": "Modificando application.properties", "esCorrecto": false},
-        {"texto": "Creando un DTO especial", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "@Controller\n@RequestMapping(\"/view\")\npublic class MyController {\n  @GetMapping\n  public String showView(Model model) {\n    model.addAttribute(\"mensaje\", \"Hola Thymeleaf\");\n    return \"miVista\";\n  }\n}",
-        "clase": "codigo"
-      }
+        {"texto": "ssh-keygen", "esCorrecto": false},
+        {"texto": "ssh-copy-id", "esCorrecto": true},
+        {"texto": "ssh-add", "esCorrecto": false},
+        {"texto": "ssh-agent", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo definir un DTO en Spring Boot?",
+      "pregunta": "¿Qué comando se utiliza para conectarse a un servidor remoto mediante SSH?",
       "respuestas": [
-        {"texto": "Creando una clase con atributos y métodos", "esCorrecto": true},
-        {"texto": "Usando la anotación @Entity", "esCorrecto": false},
-        {"texto": "Configurando un archivo YAML", "esCorrecto": false},
-        {"texto": "Modificando el controlador", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "public class UsuarioDTO {\n  private String nombre;\n  private String email;\n  // Getters y setters\n}",
-        "clase": "codigo"
-      }
+        {"texto": "ssh", "esCorrecto": true},
+        {"texto": "scp", "esCorrecto": false},
+        {"texto": "sftp", "esCorrecto": false},
+        {"texto": "rsync", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo habilitar HTTPS en Nginx?",
+      "pregunta": "¿Qué comando se utiliza para copiar archivos de forma segura entre un cliente y un servidor?",
       "respuestas": [
-        {"texto": "Configurando un certificado SSL y ajustando la configuración", "esCorrecto": true},
-        {"texto": "Instalando un plugin adicional", "esCorrecto": false},
-        {"texto": "Editando el archivo .htaccess", "esCorrecto": false},
-        {"texto": "Cambiando la configuración del firewall", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "server {\n  listen 443 ssl;\n  server_name example.com;\n  ssl_certificate /etc/nginx/ssl/cert.pem;\n  ssl_certificate_key /etc/nginx/ssl/key.pem;\n}",
-        "clase": "codigo"
-      }
+        {"texto": "ssh", "esCorrecto": false},
+        {"texto": "scp", "esCorrecto": true},
+        {"texto": "sftp", "esCorrecto": false},
+        {"texto": "rsync", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo crear un túnel SSH con reenvío de puertos?",
+      "pregunta": "¿Qué comando se utiliza para transferir archivos de forma segura entre un cliente y un servidor?",
       "respuestas": [
-        {"texto": "Usando el parámetro '-L' en SSH", "esCorrecto": true},
-        {"texto": "Modificando el archivo sshd_config", "esCorrecto": false},
-        {"texto": "Activando VPN", "esCorrecto": false},
-        {"texto": "Cambiando la IP del servidor", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "ssh -L 8080:localhost:80 usuario@servidor.com",
-        "clase": "codigo"
-      }
+        {"texto": "ssh", "esCorrecto": false},
+        {"texto": "scp", "esCorrecto": false},
+        {"texto": "sftp", "esCorrecto": true},
+        {"texto": "rsync", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo conectarse a un servidor SSH?",
+      "pregunta": "¿Qué comando se utiliza para sincronizar archivos entre un cliente y un servidor?",
       "respuestas": [
-        {"texto": "Con el comando 'ssh usuario@host'", "esCorrecto": true},
-        {"texto": "Editando ssh_config", "esCorrecto": false},
-        {"texto": "Instalando un cliente FTP", "esCorrecto": false},
-        {"texto": "Habilitando CORS", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "ssh usuario@192.168.1.1",
-        "clase": "codigo"
-      }
+        {"texto": "ssh", "esCorrecto": false},
+        {"texto": "scp", "esCorrecto": false},
+        {"texto": "sftp", "esCorrecto": false},
+        {"texto": "rsync", "esCorrecto": true}
+      ]
     },
     {
-      "pregunta": "¿Cómo crear un usuario en MySQL desde la consola?",
+      "pregunta": "¿Qué comando se utiliza para agregar una clave SSH al agente SSH?",
       "respuestas": [
-        {"texto": "Con 'CREATE USER'", "esCorrecto": true},
-        {"texto": "Usando INSERT INTO users", "esCorrecto": false},
-        {"texto": "Ejecutando GRANT ALL", "esCorrecto": false},
-        {"texto": "Modificando my.cnf", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "CREATE USER 'nuevo_usuario'@'localhost' IDENTIFIED BY 'contraseña';",
-        "clase": "codigo"
-      }
+        {"texto": "ssh-keygen", "esCorrecto": false},
+        {"texto": "ssh-copy-id", "esCorrecto": false},
+        {"texto": "ssh-add", "esCorrecto": true},
+        {"texto": "ssh-agent", "esCorrecto": false}
+      ]
     },
     {
-      "pregunta": "¿Cómo otorgar privilegios a un usuario en MySQL?",
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para habilitar la seguridad web?",
       "respuestas": [
-        {"texto": "Con 'GRANT PRIVILEGES'", "esCorrecto": false},
-        {"texto": "Con 'GRANT' seguido de los permisos", "esCorrecto": true},
-        {"texto": "Ejecutando 'ADD PERMISSIONS'", "esCorrecto": false},
-        {"texto": "Editando my.cnf", "esCorrecto": false}
-      ],
-      "codigo": {
-        "texto": "GRANT ALL PRIVILEGES ON *.* TO 'nuevo_usuario'@'localhost';",
-        "clase": "codigo"
-      }
+        {"texto": "@EnableWebSecurity", "esCorrecto": true},
+        {"texto": "@EnableSecurity", "esCorrecto": false},
+        {"texto": "@WebSecurity", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la cadena de filtros de seguridad?",
+      "respuestas": [
+        {"texto": "@EnableWebSecurity", "esCorrecto": false},
+        {"texto": "@SecurityFilterChain", "esCorrecto": true},
+        {"texto": "@WebSecurityConfigurer", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para permitir el acceso a ciertas rutas sin autenticación?",
+      "respuestas": [
+        {"texto": "@PermitAll", "esCorrecto": true},
+        {"texto": "@AllowAll", "esCorrecto": false},
+        {"texto": "@Anonymous", "esCorrecto": false},
+        {"texto": "@Public", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para restringir el acceso a ciertas rutas a usuarios con un rol específico?",
+      "respuestas": [
+        {"texto": "@RolesAllowed", "esCorrecto": false},
+        {"texto": "@Secured", "esCorrecto": false},
+        {"texto": "@PreAuthorize", "esCorrecto": true},
+        {"texto": "@PostAuthorize", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la autenticación basada en formularios?",
+      "respuestas": [
+        {"texto": "@FormLogin", "esCorrecto": true},
+        {"texto": "@LoginForm", "esCorrecto": false},
+        {"texto": "@Authentication", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la autenticación básica?",
+      "respuestas": [
+        {"texto": "@BasicAuth", "esCorrecto": false},
+        {"texto": "@HttpBasic", "esCorrecto": true},
+        {"texto": "@BasicAuthentication", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la autenticación basada en tokens?",
+      "respuestas": [
+        {"texto": "@TokenAuth", "esCorrecto": false},
+        {"texto": "@JwtAuth", "esCorrecto": true},
+        {"texto": "@OAuth2", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la autenticación basada en OAuth2?",
+      "respuestas": [
+        {"texto": "@OAuth2", "esCorrecto": true},
+        {"texto": "@OAuth2Client", "esCorrecto": false},
+        {"texto": "@OAuth2Resource", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la autenticación basada en LDAP?",
+      "respuestas": [
+        {"texto": "@LdapAuth", "esCorrecto": false},
+        {"texto": "@LdapAuthentication", "esCorrecto": true},
+        {"texto": "@LdapSecurity", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Security para configurar la autenticación basada en JWT?",
+      "respuestas": [
+        {"texto": "@JwtAuth", "esCorrecto": true},
+        {"texto": "@JwtSecurity", "esCorrecto": false},
+        {"texto": "@JwtAuthentication", "esCorrecto": false},
+        {"texto": "@SecurityConfig", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué dependencia de Spring Boot se utiliza para enviar correos electrónicos?",
+      "respuestas": [
+        {"texto": "Spring Mail", "esCorrecto": true},
+        {"texto": "Spring Email", "esCorrecto": false},
+        {"texto": "Spring SMTP", "esCorrecto": false},
+        {"texto": "Spring Messaging", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para configurar un bean de JavaMailSender?",
+      "respuestas": [
+        {"texto": "@MailConfig", "esCorrecto": false},
+        {"texto": "@EmailConfig", "esCorrecto": false},
+        {"texto": "@Configuration", "esCorrecto": false},
+        {"texto": "@Bean", "esCorrecto": true}
+      ]
+    },
+    {
+      "pregunta": "¿Qué método se utiliza en Spring Boot para enviar un correo electrónico?",
+      "respuestas": [
+        {"texto": "sendMail", "esCorrecto": false},
+        {"texto": "sendEmail", "esCorrecto": false},
+        {"texto": "send", "esCorrecto": true},
+        {"texto": "sendMessage", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué protocolo se utiliza para enviar correos electrónicos?",
+      "respuestas": [
+        {"texto": "HTTP", "esCorrecto": false},
+        {"texto": "SMTP", "esCorrecto": true},
+        {"texto": "FTP", "esCorrecto": false},
+        {"texto": "DNS", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué puerto se utiliza por defecto para SMTP?",
+      "respuestas": [
+        {"texto": "25", "esCorrecto": true},
+        {"texto": "465", "esCorrecto": false},
+        {"texto": "587", "esCorrecto": false},
+        {"texto": "993", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué puerto se utiliza para SMTP con SSL/TLS?",
+      "respuestas": [
+        {"texto": "25", "esCorrecto": false},
+        {"texto": "465", "esCorrecto": true},
+        {"texto": "587", "esCorrecto": false},
+        {"texto": "993", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué puerto se utiliza para SMTP con STARTTLS?",
+      "respuestas": [
+        {"texto": "25", "esCorrecto": false},
+        {"texto": "465", "esCorrecto": false},
+        {"texto": "587", "esCorrecto": true},
+        {"texto": "993", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para configurar las propiedades de correo electrónico?",
+      "respuestas": [
+        {"texto": "@MailProperties", "esCorrecto": false},
+        {"texto": "@EmailProperties", "esCorrecto": false},
+        {"texto": "@ConfigurationProperties", "esCorrecto": true},
+        {"texto": "@Bean", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para inyectar un bean de JavaMailSender?",
+      "respuestas": [
+        {"texto": "@Inject", "esCorrecto": false},
+        {"texto": "@Autowired", "esCorrecto": true},
+        {"texto": "@Resource", "esCorrecto": false},
+        {"texto": "@Dependency", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué anotación se utiliza en Spring Boot para configurar un servicio de correo electrónico?",
+      "respuestas": [
+        {"texto": "@Service", "esCorrecto": true},
+        {"texto": "@EmailService", "esCorrecto": false},
+        {"texto": "@MailService", "esCorrecto": false},
+        {"texto": "@Component", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué capa de la arquitectura web se encarga de la presentación de la web al usuario?",
+      "respuestas": [
+        {"texto": "Capa de presentación", "esCorrecto": true},
+        {"texto": "Capa de negocio", "esCorrecto": false},
+        {"texto": "Capa de acceso a datos", "esCorrecto": false},
+        {"texto": "Capa de red", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué capa de la arquitectura web se encarga de la lógica de negocio?",
+      "respuestas": [
+        {"texto": "Capa de presentación", "esCorrecto": false},
+        {"texto": "Capa de negocio", "esCorrecto": true},
+        {"texto": "Capa de acceso a datos", "esCorrecto": false},
+        {"texto": "Capa de red", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué capa de la arquitectura web se encarga de la interacción con la base de datos?",
+      "respuestas": [
+        {"texto": "Capa de presentación", "esCorrecto": false},
+        {"texto": "Capa de negocio", "esCorrecto": false},
+        {"texto": "Capa de acceso a datos", "esCorrecto": true},
+        {"texto": "Capa de red", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué modelo de arquitectura web tiene dos capas?",
+      "respuestas": [
+        {"texto": "Modelo de dos capas", "esCorrecto": true},
+        {"texto": "Modelo de tres capas", "esCorrecto": false},
+        {"texto": "Modelo de cuatro capas", "esCorrecto": false},
+        {"texto": "Modelo de cinco capas", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué modelo de arquitectura web tiene tres capas?",
+      "respuestas": [
+        {"texto": "Modelo de dos capas", "esCorrecto": false},
+        {"texto": "Modelo de tres capas", "esCorrecto": true},
+        {"texto": "Modelo de cuatro capas", "esCorrecto": false},
+        {"texto": "Modelo de cinco capas", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servidor se utiliza para ejecutar aplicaciones web dinámicas?",
+      "respuestas": [
+        {"texto": "Servidor web", "esCorrecto": false},
+        {"texto": "Servidor de aplicaciones", "esCorrecto": true},
+        {"texto": "Servidor de base de datos", "esCorrecto": false},
+        {"texto": "Servidor de correo", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipos de servidores hay?",
+      "respuestas": [
+        {"texto": "Servidor web, Servidor de aplicaciones, Servidor de base de datos, Servidor de correo", "esCorrecto": true},
+        {"texto": "Servidor de aplicaciones", "esCorrecto": false},
+        {"texto": "Servidor de base de datos", "esCorrecto": false},
+        {"texto": "Servidor de correo", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servidor se utiliza para equilibrar la carga entre varios servidores?",
+      "respuestas": [
+        {"texto": "Servidor web", "esCorrecto": false},
+        {"texto": "Servidor de aplicaciones", "esCorrecto": false},
+        {"texto": "Servidor de base de datos", "esCorrecto": false},
+        {"texto": "Balanceador de carga", "esCorrecto": true}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de escalabilidad implica añadir más servidores?",
+      "respuestas": [
+        {"texto": "Escalabilidad vertical", "esCorrecto": false},
+        {"texto": "Escalabilidad horizontal", "esCorrecto": true},
+        {"texto": "Escalabilidad diagonal", "esCorrecto": false},
+        {"texto": "Escalabilidad circular", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de escalabilidad implica mejorar los recursos de un servidor existente?",
+      "respuestas": [
+        {"texto": "Escalabilidad vertical", "esCorrecto": true},
+        {"texto": "Escalabilidad horizontal", "esCorrecto": false},
+        {"texto": "Escalabilidad diagonal", "esCorrecto": false},
+        {"texto": "Escalabilidad circular", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servicio en la nube proporciona infraestructura bajo demanda?",
+      "respuestas": [
+        {"texto": "IaaS", "esCorrecto": true},
+        {"texto": "PaaS", "esCorrecto": false},
+        {"texto": "SaaS", "esCorrecto": false},
+        {"texto": "CaaS", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servicio en la nube proporciona una plataforma para desarrollar y desplegar aplicaciones?",
+      "respuestas": [
+        {"texto": "IaaS", "esCorrecto": false},
+        {"texto": "PaaS", "esCorrecto": true},
+        {"texto": "SaaS", "esCorrecto": false},
+        {"texto": "CaaS", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servicio en la nube proporciona software listo para usar?",
+      "respuestas": [
+        {"texto": "IaaS", "esCorrecto": false},
+        {"texto": "PaaS", "esCorrecto": false},
+        {"texto": "SaaS", "esCorrecto": true},
+        {"texto": "CaaS", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué tipo de servicio en la nube proporciona contenedores como servicio?",
+      "respuestas": [
+        {"texto": "IaaS", "esCorrecto": false},
+        {"texto": "PaaS", "esCorrecto": false},
+        {"texto": "SaaS", "esCorrecto": false},
+        {"texto": "CaaS", "esCorrecto": true}
+      ]
     }
   ]
 }
