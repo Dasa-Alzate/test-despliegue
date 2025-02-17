@@ -29,8 +29,10 @@ function renderizarPregunta() {
 
   // Verifica si hay código en la pregunta y lo agrega
   if (preguntaActual.codigo) {
-    contenido += `<div class="codigo bg-gray-800 text-white p-4 rounded-md overflow-x-auto">
-      <pre><code>${preguntaActual.codigo.texto}</code></pre>
+    contenido += `<div class="codigo bg-gray-800 text-emerald-300 p-4 rounded-md w-full overflow-x-auto sm:overflow-x-hidden">
+      <pre class="whitespace-pre-wrap break-words w-full">
+        <code class="w-full">${preguntaActual.codigo.texto}</code>
+      </pre>
     </div>`;
   }
 
