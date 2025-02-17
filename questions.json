@@ -1,0 +1,370 @@
+{
+  "tema": [
+    {
+      "pregunta": "¿Qué representa el Modelo en MVC?",
+      "respuestas": [
+        {"texto": "La interfaz de usuario", "esCorrecto": false},
+        {"texto": "La lógica de negocio y gestión de datos", "esCorrecto": true},
+        {"texto": "La interacción con el usuario", "esCorrecto": false},
+        {"texto": "La navegación entre páginas", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la función del Controlador en MVC?",
+      "respuestas": [
+        {"texto": "Gestionar la interfaz gráfica", "esCorrecto": false},
+        {"texto": "Encargarse de la base de datos", "esCorrecto": false},
+        {"texto": "Recibir y gestionar las peticiones del usuario", "esCorrecto": true},
+        {"texto": "Estilizar la presentación de la aplicación", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué se encarga de definir la presentación en MVC?",
+      "respuestas": [
+        {"texto": "El Modelo", "esCorrecto": false},
+        {"texto": "El Controlador", "esCorrecto": false},
+        {"texto": "La Vista", "esCorrecto": true},
+        {"texto": "El Servidor", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué es Nginx?",
+      "respuestas": [
+        {"texto": "Un servidor web y proxy inverso", "esCorrecto": true},
+        {"texto": "Un framework de desarrollo", "esCorrecto": false},
+        {"texto": "Un sistema operativo", "esCorrecto": false},
+        {"texto": "Un gestor de bases de datos", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Para qué se usa SSH?",
+      "respuestas": [
+        {"texto": "Para acceder de forma segura a otro equipo de forma remota", "esCorrecto": true},
+        {"texto": "Para transferir archivos mediante HTTP", "esCorrecto": false},
+        {"texto": "Para cifrar contraseñas", "esCorrecto": false},
+        {"texto": "Para compilar código en servidores", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué protocolo permite la transferencia segura de archivos?",
+      "respuestas": [
+        {"texto": "FTP", "esCorrecto": false},
+        {"texto": "SFTP", "esCorrecto": true},
+        {"texto": "HTTP", "esCorrecto": false},
+        {"texto": "SMTP", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué es Spring Boot?",
+      "respuestas": [
+        {"texto": "Un framework para crear aplicaciones en Java", "esCorrecto": true},
+        {"texto": "Un sistema operativo", "esCorrecto": false},
+        {"texto": "Un lenguaje de programación", "esCorrecto": false},
+        {"texto": "Un motor de bases de datos", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué función tiene Spring Security?",
+      "respuestas": [
+        {"texto": "Proteger aplicaciones Spring mediante autenticación y autorización", "esCorrecto": true},
+        {"texto": "Gestionar bases de datos", "esCorrecto": false},
+        {"texto": "Compilar aplicaciones Spring", "esCorrecto": false},
+        {"texto": "Optimizar el rendimiento de Spring Boot", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Para qué se usa Thymeleaf en Spring Boot?",
+      "respuestas": [
+        {"texto": "Para renderizar vistas HTML dinámicamente", "esCorrecto": true},
+        {"texto": "Para gestionar la base de datos", "esCorrecto": false},
+        {"texto": "Para realizar autenticación de usuarios", "esCorrecto": false},
+        {"texto": "Para crear controladores REST", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la principal función de Nginx?",
+      "respuestas": [
+        {"texto": "Servidor web y proxy inverso", "esCorrecto": true},
+        {"texto": "Gestor de bases de datos", "esCorrecto": false},
+        {"texto": "Framework de desarrollo", "esCorrecto": false},
+        {"texto": "Sistema operativo", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué protocolo se utiliza para acceso remoto seguro?",
+      "respuestas": [
+        {"texto": "SSH", "esCorrecto": true},
+        {"texto": "HTTP", "esCorrecto": false},
+        {"texto": "FTP", "esCorrecto": false},
+        {"texto": "Telnet", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes protocolos permite la transferencia segura de archivos?",
+      "respuestas": [
+        {"texto": "SFTP", "esCorrecto": true},
+        {"texto": "FTP", "esCorrecto": false},
+        {"texto": "HTTP", "esCorrecto": false},
+        {"texto": "SMTP", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué es Spring Boot?",
+      "respuestas": [
+        {"texto": "Un framework para crear aplicaciones en Java", "esCorrecto": true},
+        {"texto": "Un sistema operativo", "esCorrecto": false},
+        {"texto": "Un lenguaje de programación", "esCorrecto": false},
+        {"texto": "Un motor de bases de datos", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué función tiene Spring Security?",
+      "respuestas": [
+        {"texto": "Proteger aplicaciones Spring mediante autenticación y autorización", "esCorrecto": true},
+        {"texto": "Gestionar bases de datos", "esCorrecto": false},
+        {"texto": "Compilar aplicaciones Spring", "esCorrecto": false},
+        {"texto": "Optimizar el rendimiento de Spring Boot", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Para qué se usa Thymeleaf en Spring Boot?",
+      "respuestas": [
+        {"texto": "Para renderizar vistas HTML dinámicamente", "esCorrecto": true},
+        {"texto": "Para gestionar la base de datos", "esCorrecto": false},
+        {"texto": "Para realizar autenticación de usuarios", "esCorrecto": false},
+        {"texto": "Para crear controladores REST", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué es un controlador en Spring Boot?",
+      "respuestas": [
+        {"texto": "Un componente que gestiona peticiones HTTP", "esCorrecto": true},
+        {"texto": "Un motor de bases de datos", "esCorrecto": false},
+        {"texto": "Un archivo de configuración", "esCorrecto": false},
+        {"texto": "Un cliente de FTP", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la función de un DTO en Spring Boot?",
+      "respuestas": [
+        {"texto": "Transferir datos entre capas de la aplicación", "esCorrecto": true},
+        {"texto": "Gestionar sesiones de usuario", "esCorrecto": false},
+        {"texto": "Estilizar la aplicación", "esCorrecto": false},
+        {"texto": "Compilar la aplicación", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Qué es una interfaz en Java?",
+      "respuestas": [
+        {"texto": "Un contrato que define métodos sin implementar", "esCorrecto": true},
+        {"texto": "Una clase que contiene solo variables", "esCorrecto": false},
+        {"texto": "Una función dentro de una clase", "esCorrecto": false},
+        {"texto": "Un tipo especial de base de datos", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la función de una implementación de servicio en Spring Boot?",
+      "respuestas": [
+        {"texto": "Definir la lógica de negocio y operaciones sobre datos", "esCorrecto": true},
+        {"texto": "Gestionar la presentación de la aplicación", "esCorrecto": false},
+        {"texto": "Almacenar datos en la base de datos", "esCorrecto": false},
+        {"texto": "Realizar autenticación de usuarios", "esCorrecto": false}
+      ]
+    },
+    {
+      "pregunta": "¿Cómo configurar un servidor Nginx para actuar como proxy inverso?",
+      "respuestas": [
+        {"texto": "Mediante la directiva 'proxy_pass' en el bloque de configuración", "esCorrecto": true},
+        {"texto": "Instalando un módulo adicional de Apache", "esCorrecto": false},
+        {"texto": "Cambiando la configuración del firewall", "esCorrecto": false},
+        {"texto": "Editando el archivo .htaccess", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "server {\n  location / {\n    proxy_pass http://localhost:8080;\n  }\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo establecer una conexión SSH a un servidor remoto?",
+      "respuestas": [
+        {"texto": "Usando el comando 'ssh usuario@servidor'", "esCorrecto": true},
+        {"texto": "Ejecutando 'connect usuario servidor'", "esCorrecto": false},
+        {"texto": "Configurando una conexión VPN", "esCorrecto": false},
+        {"texto": "Usando un navegador web", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "ssh usuario@192.168.1.1",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo configurar autenticación básica en Spring Security?",
+      "respuestas": [
+        {"texto": "Mediante una clase @Configuration que extiende WebSecurityConfigurerAdapter", "esCorrecto": true},
+        {"texto": "Modificando el archivo application.properties", "esCorrecto": false},
+        {"texto": "Añadiendo anotaciones en los controladores", "esCorrecto": false},
+        {"texto": "Creando un filtro en el frontend", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "@Configuration\n@EnableWebSecurity\npublic class SecurityConfig extends WebSecurityConfigurerAdapter {\n  @Override\n  protected void configure(HttpSecurity http) throws Exception {\n    http.authorizeRequests().anyRequest().authenticated().and().httpBasic();\n  }\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo definir un controlador en Spring Boot?",
+      "respuestas": [
+        {"texto": "Usando la anotación @RestController", "esCorrecto": true},
+        {"texto": "Implementando la interfaz ControllerBase", "esCorrecto": false},
+        {"texto": "Declarando métodos estáticos en una clase", "esCorrecto": false},
+        {"texto": "Editando el archivo application.yaml", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "@RestController\n@RequestMapping(\"/api\")\npublic class MyController {\n  @GetMapping(\"/hello\")\n  public String sayHello() {\n    return \"Hola Mundo\";\n  }\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo se define una entidad en Spring Boot usando JPA?",
+      "respuestas": [
+        {"texto": "Mediante la anotación @Entity sobre una clase", "esCorrecto": true},
+        {"texto": "Declarando un JSON en application.yaml", "esCorrecto": false},
+        {"texto": "Definiendo un DTO", "esCorrecto": false},
+        {"texto": "Creando una tabla en la base de datos manualmente", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "@Entity\npublic class Usuario {\n  @Id\n  @GeneratedValue(strategy = GenerationType.IDENTITY)\n  private Long id;\n  private String nombre;\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo habilitar HTTPS en Nginx?",
+      "respuestas": [
+        {"texto": "Configurando un certificado SSL y ajustando la configuración", "esCorrecto": true},
+        {"texto": "Instalando un plugin adicional", "esCorrecto": false},
+        {"texto": "Editando el archivo .htaccess", "esCorrecto": false},
+        {"texto": "Cambiando la configuración del firewall", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "server {\n  listen 443 ssl;\n  server_name example.com;\n  ssl_certificate /etc/nginx/ssl/cert.pem;\n  ssl_certificate_key /etc/nginx/ssl/key.pem;\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo crear un túnel SSH con reenvío de puertos?",
+      "respuestas": [
+        {"texto": "Usando el parámetro '-L' en SSH", "esCorrecto": true},
+        {"texto": "Modificando el archivo sshd_config", "esCorrecto": false},
+        {"texto": "Activando VPN", "esCorrecto": false},
+        {"texto": "Cambiando la IP del servidor", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "ssh -L 8080:localhost:80 usuario@servidor.com",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo restringir acceso a rutas específicas en Spring Security?",
+      "respuestas": [
+        {"texto": "Definiendo restricciones en la configuración", "esCorrecto": true},
+        {"texto": "Editando el archivo application.properties", "esCorrecto": false},
+        {"texto": "Desactivando CORS", "esCorrecto": false},
+        {"texto": "Modificando la anotación @RequestMapping", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "@Configuration\n@EnableWebSecurity\npublic class SecurityConfig extends WebSecurityConfigurerAdapter {\n  @Override\n  protected void configure(HttpSecurity http) throws Exception {\n    http.authorizeRequests().antMatchers(\"/admin/**\").hasRole(\"ADMIN\").anyRequest().authenticated();\n  }\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo renderizar datos en una vista Thymeleaf en Spring Boot?",
+      "respuestas": [
+        {"texto": "Enviando atributos desde el controlador", "esCorrecto": true},
+        {"texto": "Usando un script en JavaScript", "esCorrecto": false},
+        {"texto": "Modificando application.properties", "esCorrecto": false},
+        {"texto": "Creando un DTO especial", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "@Controller\n@RequestMapping(\"/view\")\npublic class MyController {\n  @GetMapping\n  public String showView(Model model) {\n    model.addAttribute(\"mensaje\", \"Hola Thymeleaf\");\n    return \"miVista\";\n  }\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo definir un DTO en Spring Boot?",
+      "respuestas": [
+        {"texto": "Creando una clase con atributos y métodos", "esCorrecto": true},
+        {"texto": "Usando la anotación @Entity", "esCorrecto": false},
+        {"texto": "Configurando un archivo YAML", "esCorrecto": false},
+        {"texto": "Modificando el controlador", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "public class UsuarioDTO {\n  private String nombre;\n  private String email;\n  // Getters y setters\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo habilitar HTTPS en Nginx?",
+      "respuestas": [
+        {"texto": "Configurando un certificado SSL y ajustando la configuración", "esCorrecto": true},
+        {"texto": "Instalando un plugin adicional", "esCorrecto": false},
+        {"texto": "Editando el archivo .htaccess", "esCorrecto": false},
+        {"texto": "Cambiando la configuración del firewall", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "server {\n  listen 443 ssl;\n  server_name example.com;\n  ssl_certificate /etc/nginx/ssl/cert.pem;\n  ssl_certificate_key /etc/nginx/ssl/key.pem;\n}",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo crear un túnel SSH con reenvío de puertos?",
+      "respuestas": [
+        {"texto": "Usando el parámetro '-L' en SSH", "esCorrecto": true},
+        {"texto": "Modificando el archivo sshd_config", "esCorrecto": false},
+        {"texto": "Activando VPN", "esCorrecto": false},
+        {"texto": "Cambiando la IP del servidor", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "ssh -L 8080:localhost:80 usuario@servidor.com",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo conectarse a un servidor SSH?",
+      "respuestas": [
+        {"texto": "Con el comando 'ssh usuario@host'", "esCorrecto": true},
+        {"texto": "Editando ssh_config", "esCorrecto": false},
+        {"texto": "Instalando un cliente FTP", "esCorrecto": false},
+        {"texto": "Habilitando CORS", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "ssh usuario@192.168.1.1",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo crear un usuario en MySQL desde la consola?",
+      "respuestas": [
+        {"texto": "Con 'CREATE USER'", "esCorrecto": true},
+        {"texto": "Usando INSERT INTO users", "esCorrecto": false},
+        {"texto": "Ejecutando GRANT ALL", "esCorrecto": false},
+        {"texto": "Modificando my.cnf", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "CREATE USER 'nuevo_usuario'@'localhost' IDENTIFIED BY 'contraseña';",
+        "clase": "codigo"
+      }
+    },
+    {
+      "pregunta": "¿Cómo otorgar privilegios a un usuario en MySQL?",
+      "respuestas": [
+        {"texto": "Con 'GRANT PRIVILEGES'", "esCorrecto": false},
+        {"texto": "Con 'GRANT' seguido de los permisos", "esCorrecto": true},
+        {"texto": "Ejecutando 'ADD PERMISSIONS'", "esCorrecto": false},
+        {"texto": "Editando my.cnf", "esCorrecto": false}
+      ],
+      "codigo": {
+        "texto": "GRANT ALL PRIVILEGES ON *.* TO 'nuevo_usuario'@'localhost';",
+        "clase": "codigo"
+      }
+    }
+  ]
+}
